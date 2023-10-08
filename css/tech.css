@@ -1,0 +1,12 @@
+@import 'colors.css';
+
+li{
+  color: var(--text-color);
+}
+.content-image{
+  width: 400px;
+  margin-left: 20px;
+}
+video{
+  border-radius: 20px;
+}

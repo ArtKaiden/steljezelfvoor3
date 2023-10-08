@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <link rel="stylesheet" href="../css/mainstyle.css">
+  <link rel="stylesheet" href="../css/gym.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym</title>
+</head>
+<body id="gym">
+
+  <div class="banner">
+    <img id="logo" src="../images/gymlogo.jpg" alt=""/>
+
+    <nav >
+      <ul>
+        <li id="navHome"><a href="../index.html">Home</a></li>
+        <br>
+        <li id="navMe"><a href="../opleiding/graduaatprogrammeren.html">Opleiding</a></li>
+        <br>
+        <li id="navGym"><div class="line"></div><a href="./gym.html">Gym</a></li>
+        <br>
+        <li id="navChess"><a href="../hobbys/chess.html">Chess</a></li>
+        <br>
+        <li id="navTech"><a href="../hobbys/tech.html">Tech</a></li>
+      </ul>
+    </nav>
+    <p class="bannerText"> Gym</p>
+    <p class="clearFloat"></p>
+    <img class="howest" src="../images/howest.png" alt="Logo van Howest">
+  </div>
+
+
+  <div class="flexContainer">
+    <div class="flexContent">
+      <h1>Welkom in de sectie <em>Gym</em></h1>
+      <h2>kennismaking met mijn hobby van bodybuilden/powerliften.</h2> 
+      <p>Toen ik 15 was was ik een klein dik nerdje, tot ik besliste om mijn leven om te slaan, en een klein, fit nerdje te worden.
+        <br>15 jaar aan hard trainen, veel eten, en talloze typische fouten later komen we uit op vandaag. De gym is al een hele tijd geen topprioriteit meer in mijn leven, maar het blijft enorm belangrijk.
+      </P>
+      <h2>Welk pad heb ik doorlopen hierin?</h2>
+      <p>Toen ik tegen mn 20e eindelijk een respectabele hoeveelheid spieren opgebouwd had, wou ik een eerste ervaring competitief bodybuilding ervaren. Samen met een professionele coach ging ik aan de slag. mijn hele leven draaide op dit punt al rond bodybuilding, en ik wou er alleen nog verder in gaan.
+        <br>Op hetzelfde moment ben ik dan ook begonnen als zelfstandig personal trainer in bijberoep, dit alles, in combinatie met een vaste nachtshift als hoofberoep, resulteerde in een burn-out.
+        <br>Hieruit leerde ik dat de boog niet altijd gespannen hoeft te zijn, en sinds deze ervaring ben ik mijn prioriteiten gaan verschuiven, wat echt telt is <strong>gezond zijn en genieten van het leven.</strong>
+      </p>
+      <h2>Waar sta ik nu?</h2>
+      <p>Nu genoot ik van de gym, was mijn focus veel minder naar bodybuilding gericht, en ben ik wat meer naar powerlifting beginnen neigen. zo hard mogelijk trainen, en minder kritisch zijn over het bodybuiling uiterlijk zorgen voor een betere balans in het leven. 
+        Alles veranderde echter op 4 oktober, toen is mijn biceps pees helemaal doorgescheurd tijdens een zware deadlift. Nu zal ik tot in december niks mogen heffen en daarna nog moeten werken aan heropbouw. Hiervan zul je onderaan ook een foto vinden van mijn gips. </p>
+      <h2>Deed ik nog andere sport?</h2>
+      <p>Ik snowboard graag maar dit doe ik minder vaak dan ik zou willen. Verder squashte ik wel af en toe. Maar ik ben van nature wel een goeie sporter in de meeste sporten. </p>
+      
+      
+      <!-- klapbare sectie voor fotos, bij klikken moet de pagina naar beneden scrollen
+      Probleem hier bij is dat de pagina niet via dezelfde manier kan terug ingeklapt worden, want de tekst bevat nu een link.
+      Doordat we geen javascript gezien hebben en ik het dus niet ga gebruiken, komt hier wat creatief werk met html en css.
+      Na klikken, verbergt een afbeelding de summarytekst die een link bevat, waardoor er enkel nog op het pijltje kan geklikt worden 
+      om in te klappen en zo de pagina terug naar boven scrollt. 
+      Zo kan het details element ingeklikt worden en zal de pagina toch terug naar boven scrollen.
+      Dit was gewoon een eigen kleine uitdaging. 
+      dit is iets optioneel en heb ik enkel op deze pagina toegepast, 
+      gelieve dus geen punten af te trekken omdat dit vreemd uitgevoerd is :-) -->
+      
+      <details>
+        <summary id="summary">
+          <a href="#summary">Enkele afbeeldingen</a>
+        </summary>
+        <img id="TextHider" src="../images/texthider.png" alt=""/>
+        <br>
+        <div class="imageBlock">
+          <img src="../images/bodybuilding.jpg" alt="foto van toen ik bodybuilding deed"/>  
+        </div>
+        <div class="imageBlock">
+          <img src="../images/squat.jpg" alt="foto van een squat"/>
+        </div>
+        <div class="imageBlock">
+          <img src="../images/bench.jpg" alt="foto van een bench press"/>
+        </div>
+        <p class="clearFloat"></p>
+        <div class="imageBlock">
+          <img src="../images/deadlift.jpg" alt="foto van een deadlift"/>
+        </div>
+        <div class="imageBlock">
+          <img src="../images/cast.jpg" alt="foto van ik in het gips"/>
+        </div>
+      </details>
+
+    </div>
+    <div class="flexAds">
+      <div class="adBlock">
+        <img src="../images/htmlad.jpg" alt="vals clickbait artikel"/>
+        <p class="adText">10 tips to write html faster, number 2 will <strong>shock</strong> you.</p>
+      </div>
+      <div class="adBlock">
+        <img src="../images/googlead.jpg" alt="vals clickbait artikel"/>
+        <p class="adText">Teachers will hate you for using this 1 simple trick</p>
+      </div>
+      <div class="adBlock">
+        <img src="../images/doctorad.png" alt="vals clickbait artikel"/>
+        <p class="adText">Leading doctor reveals, programming might be killing you</p>
+      </div>
+    </div>
+  </div>
+
+  <footer><p><small>© Cornillie Jeffrey</small></p></footer>
+</body>
+</html>

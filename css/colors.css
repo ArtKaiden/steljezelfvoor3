@@ -1,0 +1,16 @@
+body {
+  --background-color: rgb(255, 255, 255);
+  --div-color: rgb(92, 92, 92);
+  --ad-color: rgb(50, 50, 50);
+  --header1-color: rgb(248, 140, 0);
+  --header-color: rgb(248, 140, 0);
+  --title-color: var(--header-color);
+  --important-color: rgb(255, 255, 0);
+  --text-color:white;
+  --navtext-color: black;
+  --footer-background-color:black ;
+  --footer-color:rgba(255,255,255,0.8) ;
+  --selected-page-color: rgb(0, 42, 255);
+  --nav-background-color: rgb(255, 255, 255);
+  
+}

@@ -1,0 +1,176 @@
+@import 'colors.css';
+
+body{
+  background-color: var(--background-color);
+  font-family: Helvetica;
+}
+
+div{
+  border-radius: 20px;
+}
+
+.banner{
+  background-color: var(--nav-background-color);
+  width: 220px;
+  border-radius: 0 0 40px 40px;
+  margin-right: 0;
+  margin-bottom: 5px;
+  margin-top: 0;
+  float: left;
+  z-index: 2;
+  position: fixed;
+  height: 100%;
+}
+nav li a:hover{
+  font-size: 28px;
+  position: relative;
+  bottom: 1px;
+  left: 10px;
+}
+.bannerText{
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--title-color);
+  border: solid 5px;
+  border-radius: 20px;
+}
+#logo{
+  width: 100px;
+  display: inline;
+  border-radius: 50px;
+}
+
+nav li{ 
+    list-style-type: none;
+    display: inline-block;
+    height: 50px;
+}
+li a{
+  color: var(--navtext-color);
+  padding:5px 0 5px 0;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0 0 20px 20px;
+  text-align: left;
+  font-size: 25px;
+}
+/* De huidige pagina aanduiden in nav balk */
+#home #navHome a,
+#gym #navGym a,
+#chess #navChess a,
+#tech #navTech a,
+#graduaat #navGraduaat a{
+  color: var(--selected-page-color);
+  position: relative;
+  left: 10px;
+}
+.line{
+  position: relative;
+  float: left ;
+  top: 16px;
+  width: 50px;
+  height: 1px;
+  background-color: var(--selected-page-color);
+}
+.howest{  
+  width: 100%;
+  position: absolute;
+  bottom: 40px;
+}
+#introImage{
+  width: 600px;
+  margin:10px 0 0 10px;
+  border-radius: 20px;
+}
+
+h1{
+  color: var(--header-color);
+  font-size:30px;
+  margin-left:10px;
+}
+h2, #summary a{
+  text-decoration: none;
+  color: var(--header-color);
+  font-size:20px;
+  margin-left:10px;
+}
+p{
+  color:var(--text-color);
+  margin-left:10px;
+}
+/* Een flexbox maken met de 2 child divs die naast elkaar moeten komen, de content van de pagina en de ads */
+.flexContainer{
+  display: flex;
+}
+.flexContent{
+  background-color: var(--div-color);
+  flex: 5;
+  margin: 0 50px 0 230px;
+  min-width: 400px;
+  
+}
+/* TODO: Marges aanpassen naar iets dat er mooier uit ziet */
+.flexAds{
+  flex: 1;
+  background-color: var(--ad-color);
+  margin-right: 30px;
+  border-radius: 0;
+}
+.clearFloat{
+  clear: both;
+}
+/* mijn naam altijd doorzichtig onderaan rechts de pagina */
+footer p{
+  bottom: 0;
+  right: 0;
+  background-color: var(--footer-background-color);
+  color: var(--footer-color);
+  position: fixed;
+  z-index: 1;
+}
+.adBlock{
+/* TODO: beslissen of ik hier de border wil of niet */
+  border: solid black 2px;
+  margin: 0 0 10px 0;
+  border-radius:0;
+}
+.adBlock img{
+  max-width: 100%;
+}
+.adText{
+  margin: 0;
+}
+.hobbyLogo{
+  width: 100px;
+  margin: 0 20px 0 10px;
+}
+/* Tekst dat er moet uitspringen, maar geen header is */
+.important{
+  color: var(--important-color);
+  font-weight: bold;
+}
+summary{
+  color: var(--header-color);
+  font-size:20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+details img{
+  margin:5px 0 5px 10px;
+}
+
+.imageBlock{
+  display: inline block;
+  float: left;
+  width: 300px;
+  margin: 20px 5px 20px 5px;
+}
+
+.imageBlock img{
+  max-width: 100%;
+}
+figcaption{
+  color: var(--text-color);
+  margin-left: 10px;
+}
